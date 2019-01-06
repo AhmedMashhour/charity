@@ -1,0 +1,9 @@
+#income2_table , #outcome2_table , #edit_income2_table ,#edit_outcome2_table{
+    display:none;
+    width: 39%;
+    max-height: 550px;
+    border: 1px solid #DDD;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    margin-right: 19%;
+}

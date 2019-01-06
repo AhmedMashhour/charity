@@ -1,0 +1,250 @@
+body{
+	text-transform:capitalize;
+	padding:0px;
+	height:auto;
+	width:100%;
+	font-family: Gaegu, serif;
+	transition:all .5s ease-in-out;
+   
+}
+.navbar{
+	background:#34afba;
+	color:white;
+}
+
+.navbar-inverse .navbar-nav >li >a ,.navbar-inverse .navbar-brand {
+  color:white;
+  padding:22px;
+  font-size:22px;
+}
+.navbar ul li{	
+	display:block;	
+}
+
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    padding: 22px;
+    font-size:30px;
+}
+.inverse .navbar-brand{
+  font-size:50px;
+  color:white;
+}
+
+img{
+	height:70px ;
+	max-width:200px;
+	float:left;
+	margin-left:5%;
+}
+
+.test ul:after{
+  content=""; clear:both;
+  display:block;
+}
+.test ul li:hover >ul{
+  display:block;
+}
+
+.active{
+   background:rgba(1,1,1,.2);
+   transform:scale(1.1,1.1);
+   transition:all .5s ease-in-out;
+}
+
+.navbar ul ul li a{
+  padding:10 0;
+  width:150px;
+
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #f1eaea;
+}
+
+.navbar-inverse .navbar-nav >li >a{
+	float:left;
+	
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus
+ {
+	background:rgba(1,1,1,.1);
+ }
+
+
+
+#loginbox{
+	margin-top:10.5%;
+	
+}
+
+input{
+	min-height:45px;
+	padding-left:10px;
+	padding-right:10px;
+	width:100%;
+	border: 1px solid #ccc;
+	float:right;
+	direction:rtl;
+	display:inline-block;
+	text-align:center;
+	
+}
+input[type="checkbox"]
+{
+	width:15px;
+	margin:-10px;
+	margin-right:-25px;
+}
+label{
+    margin-right:30px	
+}
+.input-group{
+	margin-bottom:10px;
+	margin-right:11%;
+	font-size:18px;
+}
+.input-group .form-control:last-child{
+	border-radius:7px;
+}
+
+.panel-info > .panel-heading {
+	background:#34afba;
+	color:white;
+}
+.panel-title{
+	font-size:24px;	
+}
+.form-control{
+	font-size:20px;
+}
+#submit_btn{
+	margin-top:20px;
+}
+.panel ,form{
+	background:#fafdff;
+}
+.panel-info{
+ border-color: #bce8f1;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color:#222;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+	width:100%;
+	color:#EEE;
+	margin-top:3%;
+	font-size:18px;
+}
+.footer h3{
+	margin-right:2%;
+}
+.footer ul{
+	margin-right:0%;
+}
+
+.copy-Right{
+	min-height:20px ;
+	background:rgb(0,0,0) ;
+	color:white ;
+	text-align:center ;
+	font-family:Gaegu ;
+}
+.copy-Right p {
+	margin:0 ;
+	padding:5px ;
+}
+
+@media(min-width:390px) and (max-width:900px)
+{
+ .input-group{
+	min-width:250px;
+}
+.panel-info {
+    max-width: 400px;
+    margin-right: 8%;
+}
+}
+@media (max-width:500px){
+	#loginbox{
+	margin-top:35%;
+}
+.navbar-inverse .navbar-nav >li >a ,.navbar-inverse .navbar-brand {
+  font-size:17px;
+  width:110%;
+  margin:0;
+  line-height: 0px;
+}
+	.navbar-inverse .navbar-nav > .active > a{
+    background: rgba(1,1,1,.1);
+    width: 106%;
+    margin-right:3%;
+    margin-bottom: 19px;
+    margin-top: -15px;
+}
+}
+@media ( min-width:501px ) and (max-width:767px)
+{
+	#loginbox{
+	margin-top:25%;
+	
+}
+.panel-info {
+    max-width: 500px;
+}
+.navbar-inverse .navbar-nav >li >a ,.navbar-inverse .navbar-brand {
+  font-size:17px;
+  width:104%;
+  margin:1%;
+  line-height: 0px;
+}
+	.navbar-inverse .navbar-nav > .active > a{
+    width: 100%;
+    margin-right:3%;
+    margin-bottom: 19px;
+    margin-top: -15px;
+}
+}	
+
+@media ( min-width:768px ) and ( max-width: 991px )   
+{
+  #loginbox{
+	margin-top:14%;	
+  }
+  #logout {
+    font-size:10px;
+}
+ .navbar-inverse .navbar-nav >li >a ,.navbar-inverse .navbar-brand {
+  font-size:7px;
+}
+	.navbar-inverse .navbar-nav > .active > a{
+    width: 100%;
+}
+	
+}
+@media(min-width:691px) and (max-width:1190px)
+{
+	 #loginbox{
+	margin-top:22%;	
+  }	
+  #logout {
+    font-size:10px;
+}
+}
+
+@media(min-width:1200px)
+{
+ .input-group{
+	width:300px;	
+}
+ 
+}
